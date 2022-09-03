@@ -1,7 +1,7 @@
 img {
-    width: 25%;
+    width: 35%;
     justify-content: center;
-    display: block;
+    /* display: block; */
     margin-left: 10%;
     /* margin-right: 50%; */
     border-radius: 10%;
@@ -17,8 +17,18 @@ h1, h2 {
 ul#mini-bio {
     justify-content: center;
     float:right;
-    margin-left: 10%;
+    /* margin-left: 60%;
+    line-height: 50px;
+    width: calc(var(--variable-width) + 20px); */
+    color: #478468;
 
+}
+
+li#minis{
+    margin-right: 150px;
+    line-height: 50px;
+    width: calc(100% - 30px);
+    font-size: 20px;
 }
 
 ul#socials{
@@ -26,9 +36,11 @@ ul#socials{
     /* display: inline; */
     display: flex;
     margin-right: 15px;
+    font-weight: 800;
+    color: #93827F;
 }
 
 li#socials{
     padding: 10px;
-    margin-right: 45px;
+    margin-right: 145px;
 }
