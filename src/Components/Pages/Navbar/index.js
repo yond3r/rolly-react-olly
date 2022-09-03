@@ -6,13 +6,16 @@ function NavBar (){
     <nav className = "navbar">
         <ul className="flex-row">
             <li className = "mx-5">
-                <Link to = "/AboutMe"></Link>
+                <Link to = "/AboutMe">AboutMe</Link>
             </li>
             <li className = "mx-5">
-                <Link to = "/Portfolio"></Link>
+                <Link to = "/Portfolio">Portfolio</Link>
             </li>
             <li className = "mx-5">
-                <Link to = "/Contact"></Link>
+                <Link to = "/Contact">Contact</Link>
+            </li>
+            <li className ="mx-5">
+                <Link to = "/Experience">Experience</Link>
             </li>
         </ul>
     </nav>

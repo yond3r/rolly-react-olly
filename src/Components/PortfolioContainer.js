@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
-import AboutMe from './Pages/AboutMe'
-import Contact from './Pages/Contact/contact'
-import Experience from './Pages/Experience'
-import Portfolio from './Pages/Portfolio'
-import Footer from './Pages/Footer'
-import Header from'./Pages/Header'
-import Navbar from'./Pages/Navbar'
+// import AboutMe from './Pages/AboutMe'
+// import Contact from './Pages/Contact/contact'
+// import Experience from './Pages/Experience'
+// import Portfolio from './Pages/Portfolio'
+// import Footer from './Pages/Footer'
+// import Header from'./Pages/Header'
+// import Navbar from'./Pages/Navbar'
 // import Home from './Component/home/'
 
-export default function PortfolioContainer(){
+// export default function PortfolioContainer(){
     // const [currentPage, setCurrentPage] = useState('home');
 
     // const renderPage = () => {
@@ -35,11 +35,11 @@ export default function PortfolioContainer(){
     //         return <Portfolio />
     //     };
 
-    const handlePageChange = (page) => setCurrentPage(page);
+//     const handlePageChange = (page) => setCurrentPage(page);
 
-    return(
-        <div>
-            <PortfolioContainer currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
-        </div>
-)};
+//     return(
+//         <div>
+//             <PortfolioContainer currentPage={currentPage} handlePageChange={handlePageChange} />
+//             {renderPage()}
+//         </div>
+// )};

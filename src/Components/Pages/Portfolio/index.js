@@ -1,8 +1,8 @@
 //will add project 3 + 3 more side projects as completed!!
 
-import MusicPlayer from './images/MusicPlayer.png';
-import farming from './images/farming.png';
-import placeholder from './images/placeholder.png';
+import MusicPlayer from '../images/MusicPlayer.png';
+import farming from '../images/farming.png';
+import placeholder from '../images/placeholder.png';
 
 
 function Portfolio(){

@@ -2,17 +2,17 @@ import React from 'react';
 
 import {Link} from "react-router-dom";
 
-import Navbar from "../Navbar";
+import NavBar from "../Navbar";
 
 function Header(){
     return (
         <header className="flex-row px-4">
             <div className='me'>
                 <h1>
-                    <Link to="/">J.M.B.</Link>
+                    J.M.B.
                 </h1>
             </div>
-            <Navbar></Navbar>
+            <NavBar></NavBar>
         </header>
     )};
 

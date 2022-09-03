@@ -2,6 +2,7 @@ import React from 'react'
 
 function AboutMe() {
     return (
+    <div>
         <section class= "about">
             <h1>Howdy, I'm Jovi!</h1>
                 <h2>I'm a designer and full-stack developer.</h2>
@@ -10,7 +11,9 @@ function AboutMe() {
               <li>Current Student @ Olympic College and UTD</li>
               <li>While my heart lies with illustrator, I've found my niche within programming. </li>
             </ul>
-        </section>,
+        </section>
+
+
 
         <section class = "apps">
             <ul>
@@ -20,6 +23,7 @@ function AboutMe() {
                 <li>&#9734;LinkedIn&#9734;</li>
             </ul>  
         </section>
+    </div>
     )};
 
 export default AboutMe;
