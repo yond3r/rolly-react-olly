@@ -4,6 +4,8 @@ import MusicPlayer from '../images/MusicPlayer.png';
 import farming from '../images/farming.png';
 import placeholder from '../images/placeholder.png';
 
+import './Portfolio.css';
+
 
 function Portfolio(){
     return (
@@ -17,7 +19,7 @@ function Portfolio(){
                     class = "card-img-top"
                     />
                     <div class = "card-body">
-                    <a href="https://lindslewis.github.io/music-generator/" target="_blank"></a>
+                    <a  id = "projects" href="https://lindslewis.github.io/music-generator/" target="_blank">Music Generator!</a>
                     </div>
                 </div>
             </div>
@@ -30,7 +32,7 @@ function Portfolio(){
                 alt = "Farmers Market Manager"
                 class = "card-img-top"
                 />
-                <a href="https://farmersmarketmanager.herokuapp.com/" target="_blank"></a>
+                <a id = "projects" href="https://farmersmarketmanager.herokuapp.com/" target="_blank">Farmer's Market Manager</a>
             </div>
         </div>
 
@@ -41,7 +43,7 @@ function Portfolio(){
                 alt = "placeholder"
                 class = "card-img-top"
                 />
-                <a href="./images/placeholder.png" target="_blank"></a>
+                <a id = "projects" href="./images/placeholder.png" target="_blank">Placeholder! Come back soon!</a>
             </div>
         </div>
 
@@ -52,7 +54,7 @@ function Portfolio(){
                 alt = "placeholder"
                 class = "card-img-top"
                 />
-                <a href="./images/placeholder.png" target="_blank"></a>
+                <a id = "projects" href="./images/placeholder.png" target="_blank">Placeholder! Come back soon!</a>
             </div>
         </div>
 
@@ -63,7 +65,7 @@ function Portfolio(){
                 alt = "placeholder"
                 class = "card-img-top"
                 />
-                <a href="./images/placeholder.png" target="_blank"></a>
+                <a id = "projects"href="./images/placeholder.png" target="_blank">Placeholder! Come back soon!</a>
             </div>
         </div>
 
@@ -74,7 +76,7 @@ function Portfolio(){
                 alt = "placeholder"
                 class = "card-img-top"
                 />
-                <a href="./images/placeholder.png" target="_blank"></a>
+                <a id = "projects" href="./images/placeholder.png" target="_blank">Placeholder! Come back soon!</a>
             </div>
         </div>
 
@@ -85,7 +87,7 @@ function Portfolio(){
                 alt = "placeholder"
                 class = "card-img-top"
                 />
-                <a href="./images/placeholder.png" target="_blank"></a>
+                <a id = "projects" href="./images/placeholder.png" target="_blank">Placeholder! Come back soon!</a>
             </div>
         </div>
     </section>

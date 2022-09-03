@@ -1,11 +1,13 @@
 .experience__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
     gap: 2rem;
+    justify-content: center;
+    text-align: center;
 }
 
 .experience__container > div {
-    background-color: #D7F2BA;
+    background-color: #c0dca2;
     padding: 2.5rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -15,7 +17,7 @@
 
 .experience__container > div:hover {
     background: transparent;
-    border-color: #D7F2BA;
+    border-color: #c0dca2;
     cursor: default;
 }
 
@@ -34,4 +36,15 @@
 .experience__details {
     display: flex;
     gap: 1rem;
+}
+
+h5 {
+    text-align: center;
+}
+
+h3#exp {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    color: #93827F;
 }

@@ -4,11 +4,11 @@ import './Experience.css';
 const Experience = () => {
     return (
         <section id='experience'>
-            <h5>The Skills I've Learned</h5>
-            <h2>My Experience</h2>
+            <h3 id= "exp">My Experience</h3>
 
             <div className="container experience__container">
                 <div className='experience__frontend'>
+                <h3>Frontend Development</h3>
                     <div className="experience__content">
                         <article className="experience__details"></article>
                         <h4>HTML</h4>
