@@ -11,9 +11,9 @@ function AboutMe() {
                 <h2>I'm a designer and full-stack developer.</h2>
                 <img src={require('../images/transparentMe.png')} />
             <ul id = "mini-bio">
-              <li id = "minis">Texas-based.</li>
+              <li id = "minis">Texas-based</li>
               <li id = "minis">Current Student @ Olympic College and UTD</li>
-              <li id = "minis">While my heart lies with illustrator, I've found my niche within programming. </li>
+              <li id = "minis">While my heart lies with illustrator, I've found my niche within programming </li>
             </ul>
         </section>
 
