@@ -1,15 +1,19 @@
 import React from 'react'
 
+import './AboutMe.css'
+import '../images/transparentMe.png';
+
 function AboutMe() {
     return (
     <div>
         <section class= "about">
             <h1>Howdy, I'm Jovi!</h1>
                 <h2>I'm a designer and full-stack developer.</h2>
-            <ul>
-              <li>Texas-based.</li>
-              <li>Current Student @ Olympic College and UTD</li>
-              <li>While my heart lies with illustrator, I've found my niche within programming. </li>
+                <img src={require('../images/transparentMe.png')} />
+            <ul id = "mini-bio">
+              <li id = "minis">Texas-based.</li>
+              <li id = "minis">Current Student @ Olympic College and UTD</li>
+              <li id = "minis">While my heart lies with illustrator, I've found my niche within programming. </li>
             </ul>
         </section>
 

@@ -1,0 +1,16 @@
+img {
+    width: 40%;
+    justify-content: center;
+    display: block;
+    margin-left: 10%;
+    /* margin-right: 50%; */
+}
+
+h1, h2 {
+    margin-left: 5%;
+}
+
+ul#mini-bio {
+    justify-content: center;
+    float: right;
+}
