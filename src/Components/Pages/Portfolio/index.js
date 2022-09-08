@@ -3,6 +3,7 @@
 import MusicPlayer from '../images/MusicPlayer.png';
 import farming from '../images/farming.png';
 import placeholder from '../images/placeholder.png';
+import hollow from '../images/hollow.png';
 
 import './Portfolio.css';
 
@@ -39,11 +40,11 @@ function Portfolio(){
     <div class = "col">
             <div class = "card">
                 <img
-                src = {placeholder}
-                alt = "placeholder"
+                src = {hollow}
+                alt = "hollow reach game"
                 class = "card-img-top"
                 />
-                <a id = "projects" href="./images/placeholder.png" target="_blank">Placeholder! Come back soon!</a>
+                <a id = "projects" href="https://funny-meerkat-dcfce3.netlify.app" target="_blank">Hollow Reach</a>
             </div>
         </div>
 
